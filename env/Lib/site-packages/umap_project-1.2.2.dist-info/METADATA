@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: umap-project
+Version: 1.2.2
+Summary: Create maps with OpenStreetMap layers in a minute and embed them in your site.
+Home-page: https://github.com/umap-project/umap
+Author: Yohan Boniface
+Author-email: ybon@openstreetmap.fr
+License: UNKNOWN
+Keywords: django leaflet geodjango openstreetmap map
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Django (==2.2.11)
+Requires-Dist: django-agnocomplete (==1.0.0)
+Requires-Dist: django-compressor (==2.4)
+Requires-Dist: Pillow (==6.2.2)
+Requires-Dist: psycopg2 (==2.8.4)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: social-auth-core (==3.3.2)
+Requires-Dist: social-auth-app-django (==3.1.0)
+
+
+# uMap project
+
+[![Requirements Status](https://requires.io/github/umap-project/umap/requirements.svg?branch=master)](https://requires.io/github/umap-project/umap/requirements/?branch=master)
+[![Join the chat at https://gitter.im/umap-project/umap](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/umap-project/umap?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Documentation Status](https://readthedocs.org/projects/umap-project/badge/?version=latest)](http://umap-project.readthedocs.io/en/latest/?badge=latest)[![Build Status](https://travis-ci.org/umap-project/umap.svg?branch=master)](https://travis-ci.org/umap-project/umap)
+
+## About
+
+uMap lets you create maps with OpenStreetMap layers in a minute and embed them in your site.
+*Because we think that the more OSM will be used, the more OSM will be improved.*
+It uses [django-leaflet-storage](https://github.com/umap-project/django-leaflet-storage) and [Leaflet.Storage](https://github.com/umap-project/Leaflet.Storage),  built on top of Django and Leaflet.
+
+
+## Installation and configuration
+
+See [developer documentation](https://umap-project.readthedocs.io/en/latest/install/).
+
+

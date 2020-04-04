@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django-agnocomplete
+Version: 1.0.0
+Summary: Frontend-agnostic Django autocomplete utilities
+Home-page: https://github.com/peopledoc/django-agnocomplete
+Author: PeopleDoc Inc.
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Django (>=1.11)
+Requires-Dist: six
+Requires-Dist: requests
+
+UNKNOWN
+
+

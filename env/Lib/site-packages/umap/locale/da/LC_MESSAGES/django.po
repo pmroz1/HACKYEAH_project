@@ -1,0 +1,379 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Kåre Thor Olsen <kaare@nightcall.dk>, 2019
+# Mikkel Kirkgaard Nielsen <memb_transifex@mikini.dk>, 2018
+# Neogeografen <soren.johannessen@gmail.com>, 2013-2014,2020
+msgid ""
+msgstr ""
+"Project-Id-Version: uMap\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-07 14:28+0000\n"
+"PO-Revision-Date: 2020-02-26 16:16+0000\n"
+"Last-Translator: Neogeografen <soren.johannessen@gmail.com>\n"
+"Language-Team: Danish (http://www.transifex.com/openstreetmap/umap/language/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: tmp/framacarte/templates/umap/home.html:8 umap/templates/umap/home.html:9
+#, python-format
+msgid ""
+"This is a demo instance, used for tests and pre-rolling releases. If you "
+"need a stable instance, please use <a "
+"href=\"%(stable_url)s\">%(stable_url)s</a>. You can also host your own "
+"instance, it's <a href=\"%(repo_url)s\">open source</a>!"
+msgstr "Dette er en demo-instans som bruges til test og at forhåndsudrulle frigivelser. Hvis du har brug for en mere stabil instans, så brug <a href=\"%(stable_url)s\">%(stable_url)s</a>.  Du kan også drive din helt egen instans, det er <a href=\"%(repo_url)s\">open source</a>!"
+
+#: tmp/framacarte/templates/umap/home.html:83
+#: tmp/framacarte/templates/umap/navigation.html:14
+#: umap/templates/umap/about_summary.html:33
+#: umap/templates/umap/navigation.html:26
+msgid "Create a map"
+msgstr "Lav et kort"
+
+#: tmp/framacarte/templates/umap/navigation.html:7
+#: umap/templates/umap/navigation.html:10
+msgid "My maps"
+msgstr "Mine kort"
+
+#: tmp/framacarte/templates/umap/navigation.html:9
+#: umap/templates/umap/navigation.html:12
+msgid "Log in"
+msgstr "Log ind"
+
+#: tmp/framacarte/templates/umap/navigation.html:9
+#: umap/templates/umap/navigation.html:12
+msgid "Sign in"
+msgstr "Opret konto"
+
+#: tmp/framacarte/templates/umap/navigation.html:12
+#: umap/templates/umap/navigation.html:20
+msgid "Log out"
+msgstr "Log ud"
+
+#: tmp/framacarte/templates/umap/search_bar.html:6
+#: umap/templates/umap/search_bar.html:6
+msgid "Search maps"
+msgstr "Søg i kortene"
+
+#: tmp/framacarte/templates/umap/search_bar.html:10
+#: tmp/framacarte/templates/umap/search_bar.html:13
+#: umap/templates/umap/search_bar.html:9
+msgid "Search"
+msgstr "Søg"
+
+#: umap/forms.py:40
+#, python-format
+msgid "Secret edit link is %s"
+msgstr "Hemmeligt redigeringslink er %s"
+
+#: umap/forms.py:44 umap/models.py:115
+msgid "Everyone can edit"
+msgstr "Alle kan redigere"
+
+#: umap/forms.py:45
+msgid "Only editable with secret edit link"
+msgstr "Er kun redigerbart med et hemmeligt link"
+
+#: umap/middleware.py:14
+msgid "Site is readonly for maintenance"
+msgstr "Webstedet er skrivebeskyttet pga. vedligeholdelse"
+
+#: umap/models.py:17
+msgid "name"
+msgstr "navn"
+
+#: umap/models.py:48
+msgid "details"
+msgstr "detaljer"
+
+#: umap/models.py:49
+msgid "Link to a page where the licence is detailed."
+msgstr "Link til en side hvor der er flere oplysninger om licensen."
+
+#: umap/models.py:63
+msgid "URL template using OSM tile format"
+msgstr "URL-skabelon i OSM flise-format"
+
+#: umap/models.py:71
+msgid "Order of the tilelayers in the edit box"
+msgstr "Rækkefølge af flise-lag i redigeringsboksen"
+
+#: umap/models.py:116
+msgid "Only editors can edit"
+msgstr "Kun redaktører kan redigere"
+
+#: umap/models.py:117
+msgid "Only owner can edit"
+msgstr "Kun ejeren kan redigere"
+
+#: umap/models.py:120
+msgid "everyone (public)"
+msgstr "alle (offentlig)"
+
+#: umap/models.py:121
+msgid "anyone with link"
+msgstr "alle med et link"
+
+#: umap/models.py:122
+msgid "editors only"
+msgstr "kun redaktører "
+
+#: umap/models.py:123
+msgid "blocked"
+msgstr "blokeret"
+
+#: umap/models.py:126 umap/models.py:256
+msgid "description"
+msgstr "beskrivelse"
+
+#: umap/models.py:127
+msgid "center"
+msgstr "center"
+
+#: umap/models.py:128
+msgid "zoom"
+msgstr "zoom"
+
+#: umap/models.py:129
+msgid "locate"
+msgstr "lokaliser"
+
+#: umap/models.py:129
+msgid "Locate user on load?"
+msgstr "Lokaliser brugeren ved indlæsning?"
+
+#: umap/models.py:132
+msgid "Choose the map licence."
+msgstr "Vælg kortlicensen."
+
+#: umap/models.py:133
+msgid "licence"
+msgstr "licens"
+
+#: umap/models.py:138
+msgid "owner"
+msgstr "ejer"
+
+#: umap/models.py:139
+msgid "editors"
+msgstr "redaktører"
+
+#: umap/models.py:140
+msgid "edit status"
+msgstr "redigeringsstatus"
+
+#: umap/models.py:141
+msgid "share status"
+msgstr "delingsstatus"
+
+#: umap/models.py:142
+msgid "settings"
+msgstr "indstillinger"
+
+#: umap/models.py:210
+msgid "Clone of"
+msgstr "Kloning af"
+
+#: umap/models.py:261
+msgid "display on load"
+msgstr "vis ved indlæsning"
+
+#: umap/models.py:262
+msgid "Display this layer on load."
+msgstr "Vis dette lag ved indlæsning."
+
+#: umap/templates/404.html:7
+msgid "Take me to the home page"
+msgstr "Før mig til hjemmesiden"
+
+#: umap/templates/auth/user_detail.html:7
+#, python-format
+msgid "Browse %(current_user)s's maps"
+msgstr "Gennemse %(current_user)ss kort"
+
+#: umap/templates/auth/user_detail.html:15
+#, python-format
+msgid "%(current_user)s has no maps."
+msgstr "%(current_user)s har ingen kort."
+
+#: umap/templates/registration/login.html:4
+msgid "Please log in with your account"
+msgstr "Log på din konto"
+
+#: umap/templates/registration/login.html:18
+msgid "Username"
+msgstr "Brugernavn"
+
+#: umap/templates/registration/login.html:20
+msgid "Password"
+msgstr "Adgangskode"
+
+#: umap/templates/registration/login.html:21
+msgid "Login"
+msgstr "Log ind"
+
+#: umap/templates/registration/login.html:27
+msgid "Please choose a provider"
+msgstr "Vælg en udbyder"
+
+#: umap/templates/umap/about_summary.html:6
+#, python-format
+msgid ""
+"uMap lets you create maps with <a href=\"%(osm_url)s\" />OpenStreetMap</a> "
+"layers in a minute and embed them in your site."
+msgstr "uMap gør det muligt at oprette kort med <a href=\"%(osm_url)s\" />OpenStreetMap</a>-lag på et øjeblik, og indlejre dem på dit websted."
+
+#: umap/templates/umap/about_summary.html:11
+msgid "Choose the layers of your map"
+msgstr "Vælg lag til dit kort"
+
+#: umap/templates/umap/about_summary.html:12
+msgid "Add POIs: markers, lines, polygons..."
+msgstr "Tilføj POI'er: markører, linjer, polygoner..."
+
+#: umap/templates/umap/about_summary.html:13
+msgid "Manage POIs colours and icons"
+msgstr "Håndter farver og ikoner for POI'er"
+
+#: umap/templates/umap/about_summary.html:14
+msgid "Manage map options: display a minimap, locate user on load…"
+msgstr "Håndter kortindstillinger: vis et miniaturekort, lokaliser brugeren ved indlæsning..."
+
+#: umap/templates/umap/about_summary.html:15
+msgid "Batch import geostructured data (geojson, gpx, kml, osm...)"
+msgstr "Batchimport af geostrukturerede data (geojson, gpx, kml, osm...)"
+
+#: umap/templates/umap/about_summary.html:16
+msgid "Choose the license for your data"
+msgstr "Vælg en licens til dine geodata"
+
+#: umap/templates/umap/about_summary.html:17
+msgid "Embed and share your map"
+msgstr "Indlejr og del dit kort"
+
+#: umap/templates/umap/about_summary.html:23
+#, python-format
+msgid "And it's <a href=\"%(repo_url)s\">open source</a>!"
+msgstr "Og det er <a href=\"%(repo_url)s\">open source</a>!"
+
+#: umap/templates/umap/about_summary.html:35
+msgid "Play with the demo"
+msgstr "Leg med demoen"
+
+#: umap/templates/umap/home.html:17
+msgid "Map of the uMaps"
+msgstr "Kort over uMaps"
+
+#: umap/templates/umap/home.html:24
+msgid "Get inspired, browse maps"
+msgstr "Bliv inspireret, gennemse kort"
+
+#: umap/templates/umap/login_popup_end.html:2
+msgid "You are logged in. Continuing..."
+msgstr "Du er logget ind. Fortsætter..."
+
+#: umap/templates/umap/map_list.html:7 umap/views.py:214
+msgid "by"
+msgstr "af"
+
+#: umap/templates/umap/map_list.html:11
+msgid "More"
+msgstr "Mere"
+
+#: umap/templates/umap/navigation.html:14
+msgid "About"
+msgstr "Om"
+
+#: umap/templates/umap/navigation.html:15
+msgid "Feedback"
+msgstr "Feedback"
+
+#: umap/templates/umap/navigation.html:18
+msgid "Change password"
+msgstr "Skift adgangskode"
+
+#: umap/templates/umap/password_change.html:6
+msgid "Password change"
+msgstr "Ændring af adgangskode"
+
+#: umap/templates/umap/password_change.html:7
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new"
+" password twice so we can verify you typed it in correctly."
+msgstr "Af sikkerhedshensyn skal du indtaste din gamle adgangskode, dernæst indtastes den nye adgangskode to gange, så vi kan være sikre på, at du har skrevet den korrekt."
+
+#: umap/templates/umap/password_change.html:12
+msgid "Old password"
+msgstr "Gammel adgangskode"
+
+#: umap/templates/umap/password_change.html:14
+msgid "New password"
+msgstr "Ny adgangskode"
+
+#: umap/templates/umap/password_change.html:16
+msgid "New password confirmation"
+msgstr "Bekræft ny adgangskode"
+
+#: umap/templates/umap/password_change.html:18
+msgid "Change my password"
+msgstr "Ændr min adgangskode"
+
+#: umap/templates/umap/password_change_done.html:6
+msgid "Password change successful"
+msgstr "Adgangskode ændret"
+
+#: umap/templates/umap/password_change_done.html:7
+msgid "Your password was changed."
+msgstr "Din adgangskode blev ændret."
+
+#: umap/templates/umap/search.html:13
+msgid "Not map found."
+msgstr "Ingen kort fundet."
+
+#: umap/views.py:220
+msgid "View the map"
+msgstr "Vis kortet"
+
+#: umap/views.py:524
+#, python-format
+msgid ""
+"Your map has been created! If you want to edit this map from another "
+"computer, please use this link: %(anonymous_url)s"
+msgstr "Dit kort er oprettet! Hvis du ønsker at redigere kortet fra en anden computer, så brug følgende link: %(anonymous_url)s"
+
+#: umap/views.py:529
+msgid "Congratulations, your map has been created!"
+msgstr "Tillykke, dit kort er oprettet!"
+
+#: umap/views.py:561
+msgid "Map has been updated!"
+msgstr "Kortet blev opdateret!"
+
+#: umap/views.py:587
+msgid "Map editors updated with success!"
+msgstr "Kortredaktører blev opdateret!"
+
+#: umap/views.py:612
+msgid "Only its owner can delete the map."
+msgstr "Kun ejeren kan slette kortet."
+
+#: umap/views.py:637
+#, python-format
+msgid ""
+"Your map has been cloned! If you want to edit this map from another "
+"computer, please use this link: %(anonymous_url)s"
+msgstr "Dit kort er klonet! Hvis du ønsker at redigere kortet fra en anden computer, så brug følgende link: %(anonymous_url)s"
+
+#: umap/views.py:642
+msgid "Congratulations, your map has been cloned!"
+msgstr "Tillykke, dit kort er klonet!"
+
+#: umap/views.py:809
+msgid "Layer successfully deleted."
+msgstr "Lag blev slettet."
