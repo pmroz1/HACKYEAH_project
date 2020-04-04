@@ -8,18 +8,19 @@
     </head>
     <body>
         <nav class = " navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class = "navbar-brand" href="#">Welcome to Be!Safe.</a>
+            <a class = "navbar-brand" href="/map">Welcome to Be!Safe.</a>
         </nav> 
         <div class =" jumbotron">
             <div class = "container">
-                <h1 class="display-4">Remeber to <strong>Be!Safe</strong>.</h1>
-                <p class = "lead">Zarażeni dzisiaj : 6969</p>
+                <h1 class="display-4">There are {{ szpitale_count }} <strong>medical help points in Poland</strong>.</h1>
+                <p class = "lead">Nowi zarażeni dzisiaj : {{new_infected}}</p>
             </div>
         </div>
         <div class="container">
-            <p>Panel Admina</p>
-            <p>Wyszukaj lokalizacje: </p>
-            <p>//forms//</p>
+            <p><strong>Szpitale zakaźne w woj. mazowieckim:</strong></p>
+            {%for i in zip %}
+                <p><em>{{i.mPoint}}</em>em</p>
+            {%endfor%}
         </div>
     </body>
 </html>
